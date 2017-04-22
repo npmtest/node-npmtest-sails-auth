@@ -1,4 +1,7 @@
-# test coverage for  [sails-auth (v2.1.3)](https://github.com/tjwebb/sails-auth)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-auth.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-auth) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-auth.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-auth)
+# npmtest-sails-auth
+
+#### basic test-coverage for  [sails-auth (v2.1.3)](https://github.com/tjwebb/sails-auth)  [![npm package](https://img.shields.io/npm/v/npmtest-sails-auth.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sails-auth) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sails-auth.svg)](https://travis-ci.org/npmtest/node-npmtest-sails-auth)
+
 #### Passport-based User Authentication system for sails.js applications.
 
 [![NPM](https://nodei.co/npm/sails-auth.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/sails-auth)
@@ -123,7 +126,8 @@
         "prepublish": "gulp",
         "test": "mocha --reporter spec --compilers js:babel/register"
     },
-    "version": "2.1.3"
+    "version": "2.1.3",
+    "bin": {}
 }
 ```
 
